@@ -22,6 +22,10 @@ public class Main extends AppCompatActivity {
             return insets;
         });
 
+
+        BankAccount accountInMain = new BankAccount("Mozart");
+        accountInMain.deposit(85.9);
+
         Log.d("NOVAK", "Main Activity Created");
     }
 }
